@@ -2,7 +2,7 @@ resource "azurerm_resource_group" "myresourcegroup" {
   name     = "${var.prefix}-workshop"
   location = "${var.location}"
 }
-
+/*
 resource "azurerm_virtual_network" "vnet" {
   name                = "${var.prefix}-vnet"
   location            = "${azurerm_resource_group.myresourcegroup.location}"
@@ -172,3 +172,4 @@ resource "null_resource" "configure-cat-app" {
     }
   }
 }
+*/
